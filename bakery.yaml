@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [LifeSavers-ExtraBold.ttf.ttx, LifeSavers-Bold.ttf.ttx, LifeSavers-Regular.ttf.ttx,
+  src/LifeSavers-ExtraBold.otf.ttx, src/LifeSavers-Regular.otf.ttx, src/LifeSavers-Bold.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
